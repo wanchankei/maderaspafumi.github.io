@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 294.79 328.39">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffad05;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #7c4e05;
+      }
+
+      .cls-3 {
+        fill: #af7000;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <polygon class="cls-1" points="0 198.52 12.69 200 12.69 290.31 100 308.97 100 328.39 0 304.49 0 198.52"/>
+      <polygon class="cls-1" points="0 198.52 205.98 0 217.17 0 12.69 200 0 198.52"/>
+      <polygon class="cls-3" points="217.17 0 217.17 73.89 12.69 290.31 12.69 200 217.17 0"/>
+      <polygon class="cls-3" points="12.69 290.31 100 308.97 267.18 80.6 217.17 73.89 12.69 290.31"/>
+      <polygon class="cls-2" points="100 328.39 270.16 91.05 267.18 80.6 100 308.97 100 328.39"/>
+      <polygon class="cls-1" points="97.02 160.46 105.97 160.46 105.97 254.84 154.48 261.95 154.48 280.63 50 263.45 50 246.63 97.02 253.52 97.02 160.46"/>
+      <polygon class="cls-2" points="50 246.63 97.02 192.55 97.02 253.52 50 246.63"/>
+      <polygon class="cls-3" points="105.97 254.84 262.7 71.64 294.47 77.01 154.48 261.95 105.97 254.84"/>
+      <polygon class="cls-2" points="154.48 280.63 294.79 85.82 294.47 77.01 154.48 261.95 154.48 280.63"/>
+      <polygon class="cls-2" points="262.7 71.64 262.7 4.47 105.97 160.46 105.97 254.84 262.7 71.64"/>
+      <polygon class="cls-1" points="97.02 160.46 254.9 4.44 262.7 4.47 105.97 160.46 97.02 160.46"/>
+    </g>
+  </g>
+</svg>

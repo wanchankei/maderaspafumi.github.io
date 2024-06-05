@@ -1,21 +1,20 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('images/portada_MP.png');
-  background-size: auto 120%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 1200px;
+  min-height: 100vh;
 }
 
 .u-section-1 .u-image-1 {
-  height: 307px;
-  width: 726px;
-  margin: 224px auto 0;
+  height: 262px;
+  width: 618px;
+  margin: 60px auto 0;
 }
 
 .u-section-1 .u-slider-1 {
   min-height: 151px;
-  margin-top: 83px;
+  margin-top: 65px;
   margin-bottom: 0;
   height: auto;
 }
@@ -31,7 +30,6 @@
 
 .u-section-1 .u-list-1 {
   width: 765px;
-  height: auto;
   margin: 0 auto;
 }
 
@@ -162,30 +160,22 @@
 .u-section-1 .u-icon-7 {
   width: 30px;
   height: 30px;
-  margin: 124px auto 0;
+  margin: 72px auto 60px;
   padding: 0;
 }
 
 @media (max-width: 1199px) {
    .u-section-1 {
-    background-position: 35.78% 50%;
-  }
-
-  .u-section-1 .u-sheet-1 {
-    min-height: 100vh;
+    background-position: 50% 50%;
   }
 
   .u-section-1 .u-image-1 {
     height: 295px;
     width: 644px;
-    margin-top: 225px;
-  }
-
-  .u-section-1 .u-slider-1 {
-    margin-top: 82px;
   }
 
   .u-section-1 .u-list-1 {
+    height: auto;
     min-height: 140px;
   }
 
@@ -202,30 +192,21 @@
     grid-auto-columns: calc(33.333333333333336% - 6.66667px);
     grid-template-columns: repeat(3, calc(33.333333333333336% - 6.66667px));
   }
-
-  .u-section-1 .u-icon-7 {
-    margin-top: 111px;
-  }
 }
 
 @media (max-width: 991px) {
    .u-section-1 {
-    background-size: auto 200%;
-  }
-
-  .u-section-1 .u-sheet-1 {
-    min-height: 1016px;
+    background-size: auto 125%;
   }
 
   .u-section-1 .u-image-1 {
     height: 259px;
     width: 612px;
-    margin-top: 197px;
+    margin-top: 222px;
   }
 
   .u-section-1 .u-slider-1 {
-    min-height: 158px;
-    margin-top: 89px;
+    min-height: 174px;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -234,13 +215,15 @@
 
   .u-section-1 .u-list-1 {
     width: 660px;
-    min-height: 376px;
+    height: auto;
+    min-height: auto;
   }
 
   .u-section-1 .u-repeater-1 {
     grid-auto-columns: calc(33.3333% - 6.66667px);
     grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
-    min-height: 138px;
+    min-height: 145px;
+    grid-gap: 10px;
   }
 
   .u-section-1 .u-text-1 {
@@ -270,17 +253,19 @@
 
   .u-section-1 .u-list-2 {
     width: 660px;
-    min-height: 376px;
+    height: auto;
+    min-height: auto;
   }
 
   .u-section-1 .u-repeater-2 {
     grid-auto-columns: calc(33.3333% - 6.66667px);
     grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
-    min-height: 141px;
+    min-height: 144px;
+    grid-gap: 10px;
   }
 
   .u-section-1 .u-icon-7 {
-    margin-top: -78px;
+    margin-top: 20px;
   }
 }
 
@@ -292,11 +277,13 @@
   .u-section-1 .u-image-1 {
     height: 195px;
     width: 442px;
-    margin-top: 211px;
+    margin-top: 171px;
   }
 
   .u-section-1 .u-list-1 {
     width: 520px;
+    height: auto;
+    min-height: 376px;
   }
 
   .u-section-1 .u-repeater-1 {
@@ -307,6 +294,8 @@
 
   .u-section-1 .u-list-2 {
     width: 520px;
+    height: auto;
+    min-height: 376px;
   }
 
   .u-section-1 .u-repeater-2 {
@@ -316,7 +305,7 @@
   }
 
   .u-section-1 .u-icon-7 {
-    margin-top: 101px;
+    margin-top: 49px;
   }
 }
 
@@ -327,7 +316,7 @@
 
   .u-section-1 .u-image-1 {
     height: 144px;
-    margin-top: 60px;
+    margin-top: 128px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -349,10 +338,6 @@
   .u-section-1 .u-repeater-2 {
     grid-auto-columns: calc(100% - 0px);
     grid-template-columns: 100%;
-  }
-
-  .u-section-1 .u-icon-7 {
-    margin-top: 82px;
   }
 } .u-section-2 {
   background-image: none;
@@ -3076,6 +3061,7 @@
 } .u-section-10 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/Pisoflotante2.png');
   background-size: auto 135%;
+  background-position: 50% 50%;
 }
 
 .u-section-10 .u-sheet-1 {
@@ -3114,10 +3100,6 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-10 {
-    background-position: 50% 50%;
-  }
-
   .u-section-10 .u-sheet-1 {
     min-height: 1016px;
   }
